@@ -10,7 +10,7 @@ $notification.post('title标题', 'subTitle子标题子标题子标题','body内
 
 
 
-
+$done();
 
 
 
