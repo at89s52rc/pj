@@ -14,8 +14,8 @@ var obj = JSON.parse(body); // JSON.parse()将json形式的body转变成对象�
 
 
 obj.userInfo.isMember=true;//修改为true
-//obj.userInfo.startDate = "2019-09-17 12:30:45";
-//obj.userInfo.endDate = "2025-09-09 12:19:19";
+obj.userInfo.startDate = "2020-09-17 12:30:45";
+obj.userInfo.endDate = "2025-09-09 12:19:19";
 
 
 body = JSON.stringify(obj); // 重新打包回json字符串
